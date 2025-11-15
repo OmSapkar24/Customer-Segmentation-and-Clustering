@@ -28,6 +28,38 @@ Actionable customer segments using K-Means, DBSCAN, and Gaussian Mixture Models 
 - Imbalanced-learn, Yellowbrick, UMAP-learn
 - Matplotlib, Seaborn, Plotly
 
+## 🖥️ Interactive UI Dashboard
+
+This project includes a **Streamlit-based web dashboard** for interactive customer segmentation and visualization.
+
+### Features
+- 📊 Upload CSV files with customer data
+- 🎯 Select clustering algorithms (K-Means, DBSCAN, GMM)
+- ⚙️ Adjust algorithm parameters interactively
+- 📈 Visualize clusters in 2D and 3D
+- 📉 View clustering metrics (Silhouette, Davies-Bouldin, Calinski-Harabasz)
+- 🎨 Interactive charts with Plotly
+- 💾 Download segmented data and profiles
+
+### Running the Dashboard
+
+```bash
+# Install dependencies (if not already done)
+pip install -r requirements.txt
+
+# Launch the Streamlit app
+streamlit run app.py
+```
+
+The dashboard will open in your browser at `http://localhost:8501`.
+
+### Usage
+1. Upload your customer data CSV file
+2. Select a clustering algorithm from the sidebar
+3. Configure algorithm parameters (number of clusters, etc.)
+4. Click "Run Segmentation" to generate segments
+5. Explore visualizations and download results
+
 ## 📦 Installation
 ```bash
 git clone https://github.com/OmSapkar24/Customer-Segmentation-and-Clustering.git
